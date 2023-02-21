@@ -1,0 +1,11 @@
+const [visiblePopup, setVisiblePopup] = useState(false);
+{
+	visiblePopup && <div className="add-list__popup">
+				<h1>123</h1>
+				</div>
+}
+
+const visiblePopup = true;
+visiblePopup && 1 && false && 2
+
+вернет первый false 
